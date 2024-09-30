@@ -19,6 +19,7 @@ Aquí, cada byte contiene una parte de la información necesaria para representa
 
 3. **Compatibilidad:**
    - **ASCII**: Al ser limitado a caracteres en inglés, no es adecuado para representar textos en otros idiomas o con caracteres especiales.
+  
    - **Unicode**: Es compatible con **ASCII** porque los primeros 128 caracteres de Unicode son los mismos que en ASCII, pero además incluye una enorme variedad de caracteres adicionales.
 
 ### Recapitulando ...
