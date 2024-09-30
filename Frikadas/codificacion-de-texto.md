@@ -4,13 +4,16 @@
 
 Aquí, cada byte contiene una parte de la información necesaria para representar un carácter.
 
-## Codificación de caracteres en `UTF-8`
+## Diferencia entre `Unicode` y `UTF-8`
 
-- **UTF-8** es un estándar de codificación.
-- **UTF-8** usa entre **1 y 4 bytes** para representar diferentes caracteres. 
-- El número de bytes depende del carácter específico.
+- `Unicode` es un estándar que asigna un número único a cada carácter de casi todos los sistemas de escritura del mundo.
+  -  `U+0041` para la letra `A`, `U+1F600` para el emoji 😀.
+  
+- `UTF-8` es un método para codificar esos números ☝️ como una secuencia de bytes.
+  - Utiliza entre 1 y 4 bytes para representar cada carácter.
+  - El número de bytes depende del carácter específico.
 
-Veamos algunos ejemplos:
+## Codificación de caracteres en `UTF-8` - Ejemplos
 
 - **1 byte** para caracteres simples (los más comunes, como los de **ASCII**).
 - **2, 3 o 4 bytes** para caracteres menos comunes o más complejos (como caracteres de otros alfabetos, símbolos o emojis).
