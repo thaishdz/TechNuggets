@@ -4,6 +4,8 @@
 
 Aquí, cada byte contiene una parte de la información necesaria para representar un carácter.
 
+![image](https://github.com/user-attachments/assets/02b9e950-38b7-4537-9c01-79050fe67322)
+
 
 ## ASCII vs Unicode
 
