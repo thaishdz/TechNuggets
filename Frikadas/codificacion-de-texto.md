@@ -4,6 +4,29 @@
 
 Aquí, cada byte contiene una parte de la información necesaria para representar un carácter.
 
+
+## ASCII vs Unicode
+
+1. **Rango de caracteres:**
+   - **ASCII**: Fue desarrollado en los años 60 y solo puede representar 128 caracteres. Incluye letras mayúsculas y minúsculas del alfabeto inglés, números, algunos símbolos comunes y caracteres de control (como el espacio y el retorno de carro). Funciona solo con caracteres latinos básicos.
+     
+   - **Unicode**: Es mucho más amplio. Puede representar **más de 143,000 caracteres** (en diferentes versiones) e incluye prácticamente todos los caracteres de todos los idiomas del mundo, además de emojis, símbolos matemáticos, etc.
+
+2. **Tamaño de los caracteres:**
+   - **ASCII**: Cada carácter está codificado en **7 bits**, lo que permite representar los 128 caracteres.
+     
+   - **Unicode**: Tiene diferentes formatos de codificación (`UTF-8`, `UTF-16`, `UTF-32`) que usan distintos tamaños. **UTF-8**, que es el más común, utiliza entre **1 y 4 bytes** por carácter, lo que le permite representar una enorme cantidad de símbolos y caracteres.
+
+3. **Compatibilidad:**
+   - **ASCII**: Al ser limitado a caracteres en inglés, no es adecuado para representar textos en otros idiomas o con caracteres especiales.
+   - **Unicode**: Es compatible con **ASCII** porque los primeros 128 caracteres de Unicode son los mismos que en ASCII, pero además incluye una enorme variedad de caracteres adicionales.
+
+### Recapitulando ...
+
+- `ASCII` es un subconjunto de `Unicode`
+- `Unicode` fue diseñado para soportar una gama mucho más amplia de caracteres.
+- `Unicode` es hoy el estándar dominante en la mayoría de las aplicaciones 🥇
+
 ## Diferencia entre `Unicode` y `UTF-8`
 
 - `Unicode` es un estándar que asigna un número único a cada carácter de casi todos los sistemas de escritura del mundo.
