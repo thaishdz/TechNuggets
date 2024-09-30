@@ -7,7 +7,8 @@ Aquí, cada byte contiene una parte de la información necesaria para representa
 ## Diferencia entre `Unicode` y `UTF-8`
 
 - `Unicode` es un estándar que asigna un número único a cada carácter de casi todos los sistemas de escritura del mundo.
-  -  `U+0041` para la letra `A`, `U+1F600` para el emoji 😀.
+  -  `U+0041` para la letra `A`
+  -  `U+1F600` para el emoji 😀.
   
 - `UTF-8` es un método para codificar esos números ☝️ como una secuencia de bytes.
   - Utiliza entre 1 y 4 bytes para representar cada carácter.
