@@ -25,7 +25,7 @@ Usar un DTO tiene algunas ventajas importantes:
 4. **Estandarizar la estructura de los datos**:
    - Cuando una aplicación necesita enviar o recibir datos de una API, el DTO asegura que los datos tengan una estructura clara y predecible.
 
-### Ejemplo sencillo para entenderlo mejor
+### Ejemplo 
 
 Imagina que tienes un sistema de usuarios, y cada usuario tiene mucha información almacenada en la base de datos, como:
 
